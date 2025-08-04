@@ -3,9 +3,7 @@
 Built a simple beginerfrienly application using Kotlin with modern and asthetic UI.
 
 
-
-
-#How to build this app:
+# How to build this app:
 
 ## Files to be imported
 
@@ -18,6 +16,13 @@ Built a simple beginerfrienly application using Kotlin with modern and asthetic 
 - import androidx.compose.runtime.mutableStateOf
 - import androidx.compose.runtime.remember
 - import androidx.compose.runtime.setValue
+
+
+
+
+
+
+
 
 
 
