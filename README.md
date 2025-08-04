@@ -1,22 +1,28 @@
-# Stopwatch
-A beginner-friendly Android project built using Kotlin and Jetpack Compose that demonstrates how to implement a basic stopwatch with Start, Stop, and Reset functionality.
 
-This project is perfect for those new to Android development or Jetpack Compose. It covers:
+# StopWatch
+Built a simple beginerfrienly application using Kotlin with modern and asthetic UI.
 
-State management with remember and mutableStateOf
 
-Using LaunchedEffect and delay() for time-based updates
 
-Creating composable UI with Column, Row, Button, and Text
 
-Basic conditional logic and button interactions
+#How to build this app:
 
-✨ Features
-Start / Stop toggle button
+## Files to be imported
 
-Reset button to clear the timer
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-Real-time UI updates using Compose state
+### Some Important Imports-
+- import androidx.compose.runtime.Composable
+- import androidx.compose.runtime.LaunchedEffect
+- import androidx.compose.runtime.getValue
+- import androidx.compose.runtime.mutableStateOf
+- import androidx.compose.runtime.remember
+- import androidx.compose.runtime.setValue
 
-Clean, readable layout with proper spacing
+
+
+
+
+
+
 
