@@ -1,6 +1,13 @@
 
 # StopWatch
-Built a simple beginerfrienly application using Kotlin with modern and asthetic UI.
+A simple stopwatch application that allows users to **start**, **pause** and **reset**. Useful for workouts, timing tasks, or tracking durations.
+
+## 🚀 Features
+
+- Start, Stop, and Reset functionality
+- Lap time recording
+- Clean and user-friendly interface
+- Accurate time tracking using system clock
 
 
 # How to build this app:
@@ -17,10 +24,11 @@ Built a simple beginerfrienly application using Kotlin with modern and asthetic 
 - import androidx.compose.runtime.remember
 - import androidx.compose.runtime.setValue
 
+  ## 📌 Usage
 
-
-
-
+- Tap **Start** to begin timing.
+- Tap **Pause** to stop the timer temporarily.
+- Tap **Reset** to clear the stopwatch and lap times.
 
 
 
