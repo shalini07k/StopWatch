@@ -37,11 +37,9 @@ There are 3 buttons Start, Stop and Reset:
      Text(text = "Reset")
 }**
 
-### -
+### Logic
+-
 
-
-
-  ## 📌 Usage
 
 
 
