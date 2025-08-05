@@ -12,23 +12,37 @@ A simple stopwatch application that allows users to **start**, **pause** and **r
 
 # How to build this app:
 
-## Files to be imported
+### Mathematical Formulas to be remembered-
+The time is to be printed in the form **Hour**:**Minute**:**Second**:**MilliSecond**.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+- Hour = (time/(1000*60*60))%24
+- Minute = (time/(1000*60))%60
+- Second = (time/1000)%60
+- MilliSecond = time%1000
 
-### Some Important Imports-
-- import androidx.compose.runtime.Composable
-- import androidx.compose.runtime.LaunchedEffect
-- import androidx.compose.runtime.getValue
-- import androidx.compose.runtime.mutableStateOf
-- import androidx.compose.runtime.remember
-- import androidx.compose.runtime.setValue
+### Defining Buttons-
+There are 3 buttons Start, Stop and Reset:
+
+- If the timer is not yet started the Start button is active after clicking it the timer starts running.
+- If the timer is running the stop button gets active.
+  
+** Button(onClick = {is_running = !is_running}){
+        Text( text = if(is_running) "stop" else "start")
+}**
+
+- On the right side is the reset button for reseting the timer.
+
+**Button(onClick = {is_running = false
+     time=0}){
+     Text(text = "Reset")
+}**
+
+### -
+
+
 
   ## 📌 Usage
 
-- Tap **Start** to begin timing.
-- Tap **Pause** to stop the timer temporarily.
-- Tap **Reset** to clear the stopwatch and lap times.
 
 
 
