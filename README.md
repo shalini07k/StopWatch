@@ -16,7 +16,7 @@ A simple stopwatch application that allows users to **start**, **pause** and **r
 
 ## How to build this app: step by step guide
 
-##### ** Mathematical Formulas to be remembered: **
+#### 📖 **Mathematical Formulas to be remembered:**
 The time is to be printed in the form **Hour**:**Minute**:**Second**:**MilliSecond**.
 
 - Hour = (time/(1000*60*60))%24
