@@ -2,6 +2,8 @@
 # ⏱️⏱️ **StopWatch** 
 A simple stopwatch application that allows users to **start**, **pause** and **reset**. Useful for workouts, timing tasks, or tracking durations.
 
+<img width="180" height="300" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/0a90d205-e28c-44e5-b9d9-bfa70a983d92" /> <img width="180" height="300" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/eb724630-1aaa-4872-900d-7853176d7ae6" />
+
 #### 🚀 **Features**
 
 - Start, Stop, and Reset functionality
@@ -36,6 +38,7 @@ The time is to be printed in the form **Hour**:**Minute**:**Second**:**MilliSeco
 1. Create a new Kotlin file for your composable and stopwatch logic inside your project’s `ui` layer.
 
 #### **Step 3**:  📦 Important packages to be imported:
+<img width="300" height="600" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/7e95b4c2-b15d-4115-a048-44954eddaaf6" />
 
 #### **Step 4**: 🧩Composable Function Preview
 - @Composable marks the function as a UI component.
