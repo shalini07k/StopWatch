@@ -50,6 +50,7 @@ fun Stopwatch(modifier: Modifier = Modifier){}
 ```
 
 ####**Step 5**: 🧠 Logic
+
 i) 🔢 Variables Used
 - `time`: Stores the current elapsed time.
 - `start_time`: Stores the starting time when the stopwatch starts. This helps in accurately resuming the timer after pauses.
