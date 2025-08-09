@@ -92,6 +92,7 @@ val hour = (time / (1000 * 60 * 60)) % 24
 val formatted_time = String.format("%02d:%02d:%02d:%03d", hour, min, sec, milsec)
 ```
 #### **Step 7**: ▶️ Defining Buttons-
+
 There are 3 buttons — **Start**, **Stop**, and **Reset**:
 
 - If the timer is not yet started, the **Start** button is active. After clicking it, the timer starts running.
@@ -102,14 +103,16 @@ There are 3 buttons — **Start**, **Stop**, and **Reset**:
         Text( text = if(is_running) "stop" else "start")
 }
 ```
-- On the right side is the Reset button for resetting the timer.
 
+- On the right side is the Reset button for resetting the timer.
+  
 ``` Kotlin
 Button(onClick = {is_running = false
      time=0}){
      Text(text = "Reset")
 }
 ```
+
 #### **Step 8**: 📱 Run the App
 
 - Connect an Android device or start an emulator  
