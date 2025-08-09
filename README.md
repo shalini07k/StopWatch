@@ -83,6 +83,7 @@ LaunchedEffect(is_running) {
 #### **Step 6**:🧮 Formatted Time - **HH:MM:SS:MS**
 - A new variable `formatted_time` is derived from `time` to convert raw milliseconds into a readable format (e.g., minutes:seconds:milliseconds).
 - This improves the user interface by showing the stopwatch time in a clean, familiar format.
+
 ``` Kotlin
 val hour = (time / (1000 * 60 * 60)) % 24
         val min = (time / (1000 * 60)) % 60
@@ -91,6 +92,7 @@ val hour = (time / (1000 * 60 * 60)) % 24
   
 val formatted_time = String.format("%02d:%02d:%02d:%03d", hour, min, sec, milsec)
 ```
+
 #### **Step 7**: ▶️ Defining Buttons-
 
 There are 3 buttons — **Start**, **Stop**, and **Reset**:
